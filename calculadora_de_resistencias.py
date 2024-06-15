@@ -45,6 +45,6 @@ elif (t==12):
 elif (t==13):
     t=10
 
-resistencia=((color1*10)+color2)*(10^color3)
+resistencia=((color1*10)+color2)*(10**color3)
 print("Valor de la resistencia es:",resistencia,'Ohms')
 print("Valor de la tolerancia es:",t,'%')
